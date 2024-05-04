@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <fieldset><LEgend>Página de Login</LEgend>
+                nome: <input type="text" value="José" readonly name="nome"><br><br>
+                sobrenome: <input type="text" required autofocus><br><br>
+                senha: <input type="password" required><br><br>
+                email: <input type="email" required><br><br>
+                <input type="submit" value="Enviar"
+                style="font-family: 'Courier New', Courier, monospace;
+                color: aquamarine; 
+                background-color: rgb(184, 130, 49);">
+                <input type="reset">
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend>Forms</legend>
+                <input type="checkbox">Aceitar os termos<br><br>
+                <hr>
+                <p>Sexo</p>
+                <input type="radio" name="sexo" value="M">masculino<br><br>
+                <input type="radio" name="sexo" value="F">feminino<br><br>
+                <hr><br>
+                <input type="reset">
+                <hr><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <hr><br>
+                <select name="nome" id="">
+                    <option value="DF">Distrito Federal</option>
+                    <option value="SP">São Paulo</option>
+                </select>
+                <hr><br>
+                Qual sua cor favorita: <input type="text" list="cores">
+                <datalist id="cores">
+                    <option value="azul"></option>
+                    <option value="verde"></option>
+                    <option value="vermelho"></option>
+                </datalist>
+                <input type="color"><br>
+                <hr>
+                <input type="number" min="0" max="100" step="10"><br>
+                <input type="date"><br>
+                <input type="range" min="0" max="100" step="20"><br>
+                <input type="time"><br>
+                <input type="file"><br>
+                <input type="tel"><br>
+                <input type="url"><br>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
